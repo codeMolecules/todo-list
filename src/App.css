@@ -1,0 +1,24 @@
+.TodoListApp {
+  max-width: 480px;
+}
+
+.AddTodoForm {
+  margin: 0 0 30px;
+}
+
+.Todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-check {
+  margin-right: 1.25rem;
+}
+
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
